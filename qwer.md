@@ -6,9 +6,9 @@
 ## Heading 2
 > sadhjfjsahdfj
 
-*a
-*b
-*c
+* a
+* b
+* c
 
 1. a
 2. b
