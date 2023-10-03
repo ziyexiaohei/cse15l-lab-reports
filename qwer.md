@@ -18,7 +18,7 @@
 Horizontal rule:
 ---
 
-'b'
-'''
+`b`
+```
 # codeblock
-'''
+```
