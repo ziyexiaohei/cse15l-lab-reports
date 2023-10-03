@@ -18,7 +18,7 @@
 Horizontal rule:
 ---
 
-'b'sdfasdf
+`Inline code`sdfasdf
 ```
 # codeblock
 ```
