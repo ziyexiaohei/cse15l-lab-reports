@@ -16,7 +16,6 @@
 
 
 Horizontal rule:
-
 ---
 
 'b'
