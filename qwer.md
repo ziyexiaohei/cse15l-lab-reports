@@ -17,8 +17,8 @@
 3. c
 
 
-Horizontal rule:
----
+Oh Yeah:
+***
 
 `Inline code`sdfasdf
 ```
