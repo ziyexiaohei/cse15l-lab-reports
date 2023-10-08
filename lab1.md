@@ -31,3 +31,15 @@
    The `ls` command will list all the file inside the given directory, when we use the command with a path to a file as an argument we will get a output only listing the file that we enter, istead all the file and folder inside the directory. Thus the output we have is only the file.
    No error.
 ## Command `cat`
+1. Using the command with no argument
+   The working directory is in home directory.
+   The output we have acctually is empty, or it repeat what we entered, until we use `Control+D` represent "End Of Signal" to end it.    The `cat` command will print out the content of the file, in this case we didn't specific which file, so it will just wait for our input from the keyboard, then it will repeat the input and print out on the screen.
+   No Error.
+2. Using the command with a path to directory as an argument
+   The working directory is in home direcotry
+   The ouput shows that the path we entered is a direcotry, which is a error message, showing that the command `cat` cannot display the content of a directory, becasue the `cat` command will read the file and give its content as output, we cannot cat a directory.
+   Error messages shows that the path I entered is a directory. The error occur becasue the `cat` command cannot read and display the content of a directroy, it can only read and display content of file as output.
+3. Using the command with a path to file as an argument
+   The working directory is in the messages folder, `/home/lecture1/messages`.
+   The output is the text in the en-us.txt file, becasue the command `cat` will read the data of a file and give its content as output in your terminal.
+   No error.
