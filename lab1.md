@@ -4,7 +4,7 @@
 ## Command `cd`
 1. Using the Command with no argument
    <br>
-   ![Image](cdwithnoargument.png)
+   ![Image](cd with no argument.png)
    * The working directory is in home directory `/home` , which is in the home page, starting directory
    * The cd command is to let you to change directory, when there is no argument it means that there is no output for the given command to process, which will end up returning to its initial directory, which is the home directory.
    * The output doesn't haev any error occur, the output indicate that the working directory has return to home dierctory
