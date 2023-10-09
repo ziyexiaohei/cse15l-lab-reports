@@ -3,18 +3,18 @@
 
 ## Command `cd`
 1. Using the Command with no argument
-![Image](cdwithnoargument.png)
+   ![Image](cdwithnoargument.png)
    * The working directory is in home directory `/home` , which is in the home page, starting directory
    * The cd command is to let you to change directory, when there is no argument it means that there is no output for the given command to process, which will end up returning to its initial directory, which is the home directory.
    * The output doesn't haev any error occur, the output indicate that the working directory has return to home dierctory
 
-2. Using the command with a path to directory as an argument
-![Image](cdwithdirectory.png)
+3. Using the command with a path to directory as an argument
+   ![Image](cdwithdirectory.png)
    * The Working directory is in lecture1 directory `/home/lecture1`.
    * The cd command allow us to change directory, this time we provide a path, which allow us to change our working directory.
    * No error has occur, we successfully change our directory to the one we want.
 
-3. Using the command with a path to a filen as an arugment
+5. Using the command with a path to a filen as an arugment
  ![Image](cdwithfile.png)
   * The Working directory is in message file, `/home/lecture1/messages`.
   * The cd command is for us to change directory, but this time the path we provide is to a file, thus the command cannot do the thing we want, error message pop up, remind us that the path we entered is not a directory, cd command cannot do anything with the path provided.
