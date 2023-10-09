@@ -9,14 +9,14 @@
    * The cd command is to let you to change directory, when there is no argument it means that there is no output for the given command to process, which will end up returning to its initial directory, which is the home directory.
    * The output doesn't haev any error occur, the output indicate that the working directory has return to home dierctory
 
-3. Using the command with a path to directory as an argument
+2. Using the command with a path to directory as an argument
    <br>
    ![Image](cd2.png)
    * The Working directory is in lecture1 directory `/home/lecture1`.
    * The cd command allow us to change directory, this time we provide a path, which allow us to change our working directory.
    * No error has occur, we successfully change our directory to the one we want.
 
-5. Using the command with a path to a filen as an arugment
+3. Using the command with a path to a filen as an arugment
    <br>
  ![Image](cd3.png)
   * The Working directory is in message file, `/home/lecture1/messages`.
@@ -32,14 +32,14 @@
    * The `ls` command will list all the file and folder inside the directory, the output we get is lecture1 the only folder inside the home directory.
    * No eror messages pops up.
    
-3. Using the command with a path to directory as an argument
+2. Using the command with a path to directory as an argument
    <br>
    ![Image](ls2.png)
    * The Working the directory is in home direcotry
    * The `ls` command will list all the file and floder inside the directory, this time we provide a path to a directory, thus it will list the file and floder in the directory we entered.
-   *No error occur.
+   *  No error occur.
    
-5. Using the command with a path to file as an argument
+3. Using the command with a path to file as an argument
    <br>
    ![Image](ls3.png)
    * The working directory is in lecture1 folder, /home/lecture1
@@ -50,16 +50,16 @@
 1. Using the command with no argument
    <br>
 ![Image](cat1.png)
-   The working directory is in home directory.
-   The output we have acctually is empty, or it repeat what we entered, until we use `Control+D` represent "End Of Signal" to end it.    The `cat` command will print out the content of the file, in this case we didn't specific which file, so it will just wait for our input from the keyboard, then it will repeat the input and print out on the screen.
-   No Error.
-3. Using the command with a path to directory as an argument
+   * The working directory is in home directory.
+   * The output we have acctually is empty, or it repeat what we entered, until we use `Control+D` represent "End Of Signal" to end it.    The `cat` command will print out the content of the file, in this case we didn't specific which file, so it will just wait for our input from the keyboard, then it will repeat the input and print out on the screen.
+   * No Error.
+2. Using the command with a path to directory as an argument
    <br>
    ![Image](cat2.png)
    * The working directory is in home direcotry
    * The ouput shows that the path we entered is a direcotry, which is a error message, showing that the command `cat` cannot display the content of a directory, becasue the `cat` command will read the file and give its content as output, we cannot cat a directory.
    * Error messages shows that the path I entered is a directory. The error occur becasue the `cat` command cannot read and display the content of a directroy, it can only read and display content of file as output.
-5. Using the command with a path to file as an argument
+3. Using the command with a path to file as an argument
    <br>
    ![Image](cat3.png)
    * The working directory is in the messages folder, `/home/lecture1/messages`.
