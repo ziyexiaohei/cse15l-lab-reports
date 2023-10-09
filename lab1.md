@@ -5,16 +5,16 @@
 1. Using the Command with no argument
    <br>
    ![Image](cd1.png)
-   * The working directory is in home directory `/home` , which is in the home page, starting directory
-   * The cd command is to let you to change directory, when there is no argument it means that there is no output for the given command to process, which will end up returning to its initial directory, which is the home directory.
-   * The output doesn't haev any error occur, the output indicate that the working directory has return to home dierctory
+   * The working directory is in the home directory `/home` , which is on the home page, starting directory
+   * The cd command is to let you change the directory, when there is no argument it means that there is no output for the given command to process, which will end up returning to its initial directory, which is the home directory.
+   * The output doesn't have any error occur, the output indicates that the working directory has returned to home directory
 
 2. Using the command with a path to directory as an argument
    <br>
    ![Image](cd2.png)
    * The Working directory is in lecture1 directory `/home/lecture1`.
-   * The cd command allow us to change directory, this time we provide a path, which allow us to change our working directory.
-   * No error has occur, we successfully change our directory to the one we want.
+   * The cd command allows us to change the directory, this time we provide a path, which allows us to change our working directory.
+   * No error has occurred, we successfully changed our directory to the one we want.
 
 3. Using the command with a path to a filen as an arugment
    <br>
@@ -24,7 +24,6 @@
   * Error has occur, Error message shows that the path I enter is not a directory. The error occur is becuase the cd command only allow us to change a directory, is for us to move between directorys, but the arugment we enter wants to change to a file instead of a directory, thsu the error message tells us that the path we enter is not a directory.
 
 ## Command `ls`
-
 1. Using the command with no arugment
    <br>
 ![Image](ls1.png)
@@ -42,11 +41,11 @@
 3. Using the command with a path to file as an argument
    <br>
    ![Image](ls3.png)
-   * The working directory is in lecture1 folder, /home/lecture1
-   * The `ls` command will list all the file inside the given directory, when we use the command with a path to a file as an argument we will get a output only listing the file that we enter, istead all the file and folder inside the directory. Thus the output we have is only the file.
+   * The working directory is in lecture1 folder, `/home/lecture1`
+   * The `ls` command will list all the file inside the given directory, when we use the command with a path to a file as an argument we will get a output only listing the file that we enter, instead all the file and folder inside the directory. Thus the output we have is only the file.
    * No error.
+     
 ## Command `cat`
-   
 1. Using the command with no argument
    <br>
 ![Image](cat1.png)
