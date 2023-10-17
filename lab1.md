@@ -5,7 +5,7 @@
 1. Using the Command with no argument
    <br>
    ![Image](cd1.png)
-   * The working directory when the program runs is `/home/lecture1`.
+   * The working directory before entered the command is `/home/lecture1`, after entered the command the working directory is `/home`.
    * The cd command is meant for us to change directory, when the command has no arugment, it will bring us back to home directory from whatever path we are on.
    * The output doesn't have any error occur, the output indicates that the working directory has returned to home directory
 
