@@ -61,6 +61,6 @@
 3. Using the command with a path to file as an argument
    <br>
    ![Image](cat3.png)
-   * The working directory is in the messages folder, `/home/lecture1/messages`.
+   * The working directory is in the messages folder, `/home`.
    * The output is the text in the en-us.txt file, becasue the command `cat` will read the data of a file and give its content as output in your terminal.
    * No error.
