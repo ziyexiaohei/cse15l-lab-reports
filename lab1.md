@@ -12,7 +12,7 @@
 2. Using the command with a path to directory as an argument
    <br>
    ![Image](cd2.png)
-   * The Working directory is `/home`.
+   * The Working directory is `/home`, after entered the command the working directory is `/home/lecture1`.
    * The cd command allows us to change the directory, this time we provide a path, which allows us to change our working directory.
    * No error has occurred, we successfully changed our directory to the one we want.
 
