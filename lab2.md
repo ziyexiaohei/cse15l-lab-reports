@@ -1,6 +1,6 @@
 # Lab Reprot 2
 
-## Source Code For `StringServer`
+## Source Code For `StringServer.java`
 
 ```
 import java.io.IOException;
@@ -61,3 +61,6 @@ class StringServer {
 }
 
 ```
+
+## Screenshouts of  using `/add-message` 
+
