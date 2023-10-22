@@ -61,7 +61,7 @@ class StringServer {
 }
 
 ```
-
+![Howareyou](laba22.png)
 ## Screenshouts of  using `/add-message` 
 1. ![Hello](laba21.png)
  * Once the code is being run, under the `Handler` class, method `handleRequest`, and `decode` has been called and also the `main` method under class `StringServer` is being called.
