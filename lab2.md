@@ -81,4 +81,5 @@ class StringServer {
 3. NO PASSWORD NEEDED<br>![nopassword](nopassword.png)
 <br>
 
-## New Stuff
+## Learning outcomes
+* In the lab section of week 2, we learned how to use the `ssh` command to connect to remote server, also we learn how to build and run a Server, and use `path` and `query` to change the output of the webpage. In lab section of week 3, we went deeper into stuff about remote Servers, and SSH keys; The useful tool kit `git for Windows` is something new to me。 The `ssh Keys` is something I never learned before, by using `ssh keygen` we are able to create `public key` and `private key`, these key can be used to log in to Remote Server without letting the user to enter password. We need to use `scp` to copy the public key into the Remote Server in `/.ssh/authorized_keys` folder, where we need to use `mkdir` to create `.ssh` folder in the Remote Server. 
