@@ -74,6 +74,7 @@ class StringServer {
     * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are `int num`, `String str`, and `int i`.
     * For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter i will be updated and be store in side `str`. If there is no value got changed, either the path is `/`, or is something unknow that return `404 Not Found!`, because if the path is `/add-messages?s=`(has query) even with no arugment, the `i` will also update.
 <br>
+
 ## SSH Key
 1. ![private](lab2private.png)
 2. ![public](lab2public.png)
