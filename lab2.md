@@ -64,6 +64,6 @@ class StringServer {
 
 ## Screenshouts of  using `/add-message` 
 1. ![Hello](lab21.png)
- * Once the code is being runed, method handleRequest, and decode has been called, where decode has been called at the return.
- * For method handleRequest, the relevant argument is `url`;For the method decode the relevant argument is `String s`.
- * 
+ * Once the code is being runed, method `handleRequest`, and decode has been called, where decode has been called at the return.
+ * For method handleRequest, the relevant argument is `url`, the value of the class is `String`, `int`,and `URI` ;For the method decode the relevant argument is `String s`, and vlaue of the class is `String`.
+ * Once the request has been processed, the `String` value will update to what the user adds, and store it into the String. The `int` value will also update under the method of `handleRequest` evertime user add some message.
