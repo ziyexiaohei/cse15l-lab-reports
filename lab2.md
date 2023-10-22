@@ -63,4 +63,7 @@ class StringServer {
 ```
 
 ## Screenshouts of  using `/add-message` 
-
+1. ![Hello](lab21.png)
+ * Once the code is being runed, method handleRequest, and decode has been called, where decode has been called at the return.
+ * For method handleRequest, the relevant argument is `url`;For the method decode the relevant argument is `String s`.
+ * 
