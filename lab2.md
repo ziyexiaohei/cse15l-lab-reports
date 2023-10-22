@@ -70,5 +70,7 @@ class StringServer {
 <br>
 
 2. ![Howareyou](laba22.png)
-    * Once the code is being run, method `handleRequest`, and `decode` is being called, inroder to store string enter by user, and print them to the screen.
-    * The revelent argument to method `handleRequest` and `decode` is the `String s`
+    * This time method `handleRequest` and `decode` has been called.
+    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are `int num`, `String str`, and `int i`.
+    * For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter i will be updated and be store in side `str`. If there is no value got changed, either the path is `/`, or is something unknow, because if the path is `/add-messages?s=`(has query) even with no arugment, the `i` will also update.
+   
