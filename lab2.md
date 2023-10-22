@@ -76,8 +76,8 @@ class StringServer {
 <br>
 
 ## SSH Key
-1. ![private](lab2private.png)
-2. ![public](lab2public.png)
-3. ![nopassword](nopassword.png)
+1. Private key<br>![private](lab2private.png)
+2. Public Key<br>![public](lab2public.png)
+3. NO PASSWORD NEEDED<br>![nopassword](nopassword.png)
 <br>
 ## New Stuff
