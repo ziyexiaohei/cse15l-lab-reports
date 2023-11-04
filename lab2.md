@@ -86,8 +86,8 @@ If there is no value got changed, either the path is `/`, or is something unknow
 <br>
 
 ## SSH Key
-1. Private key<br>![private](lab2private.png)
-2. Public Key<br>![public](lab2public.png)
+1. Private key<br>![private](lab2private2.png)
+2. Public Key<br>![public](lab2public2.png)
 3. NO PASSWORD NEEDED<br>![nopassword](nopassword.png)
 <br>
 
