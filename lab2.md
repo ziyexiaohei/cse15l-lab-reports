@@ -71,7 +71,7 @@ class StringServer {
 
 2. ![Howareyou](laba22.png)
     * This time method `handleRequest` and `decode` has been called.
-    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `String str` is <br>
+    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `int i` is 2 , and value of `String str` is <br>
 ```
 1.Hello
 2.How are you
