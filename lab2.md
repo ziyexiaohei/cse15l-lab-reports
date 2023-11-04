@@ -6,13 +6,12 @@
 import java.io.IOException;
 import java.net.URI;
 import java.net.URLDecoder;
-import java.lang.Object;
 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     int num = 0;
-    String s = new String();
+    String str = new String();
     int i = 0;
 
 @Deprecated
@@ -25,7 +24,7 @@ public static String decode(String s)
 public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
 
-        return decode(s);      
+        return decode(str);      
         }
 
         else {
@@ -33,8 +32,8 @@ public String handleRequest(URI url) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     i += 1;
-                    s = s + i+"."+parameters[1]+"\n";
-                    return decode(s);
+                    str = str + i+"."+parameters[1]+"\n";
+                    return decode(str);
                 }
             }
             return "404 Not Found!";
@@ -65,13 +64,14 @@ class StringServer {
 ## Screenshouts of  using `/add-message` 
 1. ![Hello](laba21.png)
  * Once the code is being run, under the `Handler` class, method `handleRequest`, and `decode` has been called and also the `main` method under class `StringServer` is being called.
- * The `main` method takes a array of string as argument, and convert it into interger and store in port inorder for the Server to start. The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are `int num`, `String str`, and `int i`.
- * Once the request has been processed, a new string will be stored in `String str` which contains the string requested, and i as the counter. The `int i` value is mean to keep track of how many string has been requested, the valuen of i will change with every `/add` request. If there is no value got changed then it either return to the decode of `String str` (when the path is "/"), or  `return "404 Not Found!"` for path that is unknow.
+ * The `main` method takes a array of string as argument, and convert it into interger and store in port inorder for the Server to start. The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are `String str`, and `int i`. `int i` stored 1 as the counter to the string user entered, and `String str` used to store string `Hello` that user entered. 
+
+ * Once the request has been processed, a new string will be stored in `String str` which contains the string requested, and i as the counter. The `int i` value is mean to keep track of how many string has been requested, the valuen of i will change with every `/add` request. If there is no value got changed then it either return to the decode of `String str` (when the path is "/"), or  `return "404 Not Found!"` for path that is unknow. In this case the `int i` stoed `1`, and `String str` stored `1.Hello` .
 <br>
 
 2. ![Howareyou](laba22.png)
     * This time method `handleRequest` and `decode` has been called.
-    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are `int num`, `String str`, and `int i`.
+    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `String str` is <br> ```1.Hello <br> 2.How are you```
     * For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter i will be updated and be store in side `str`. If there is no value got changed, either the path is `/`, or is something unknow that return `404 Not Found!`, because if the path is `/add-messages?s=`(has query) even with no arugment, the `i` will also update.
 <br>
 
