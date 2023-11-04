@@ -71,7 +71,8 @@ class StringServer {
 
 2. ![Howareyou](laba22.png)
     * This time method `handleRequest` and `decode` has been called.
-    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `String str` is <br> ```1.Hello <br> 2.How are you```
+    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `String str` is <br> ```1.Hello
+       2.How are you```
     * For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter i will be updated and be store in side `str`. If there is no value got changed, either the path is `/`, or is something unknow that return `404 Not Found!`, because if the path is `/add-messages?s=`(has query) even with no arugment, the `i` will also update.
 <br>
 
