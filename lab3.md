@@ -186,4 +186,4 @@ $ find -type d -size -10M
 ./government/Post_Rate_Comm    
 ./plos
 ```
-This command will list all the directroy that has a size less than 10 MB, we specify the type we want is directory and the size we want is less than 10Mb, from our working directroy, one of the file that did not get listed is `/technical/
+This command will list all the directroy that has a size less than 10 MB, we specify the type we want is directory and the size we want is less than 10Mb, 
