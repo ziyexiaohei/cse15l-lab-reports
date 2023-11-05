@@ -65,3 +65,7 @@ Explaination: In the code before we fix, it will only reverse half of of the arr
 <br>
 
 Solution: The solution to this bug is that we can just swap the relative element, we store the element of array we going to replace into temp, in our example we want to replace element[0] with element[7], we store element[0] into temp, replace it with element[7], then put the value store in temp into element[7]. By doing this we can keep track of every element, and we only need to iterate half of the array, and the problem will be solved, since we not only updated the first half element of the array, and also we updated the last half of array.
+
+
+Part 2:
+
