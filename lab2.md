@@ -71,11 +71,18 @@ class StringServer {
 
 2. ![Howareyou](laba22.png)
     * This time method `handleRequest` and `decode` has been called.
-    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `int i` is 2 , and value of `String str` is <br>
+    * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `int i` is 2 , and value of `String str` before storeing the new input is <br>
+```
+1.Hello
+```
+<br>
+After the /add command is <br>
+
 ```
 1.Hello
 2.How are you
 ```
+
   
 * For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter i will be updated and be store in side `str` then the value store in `str` will be
 ```
