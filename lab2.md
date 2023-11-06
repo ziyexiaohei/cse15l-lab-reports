@@ -86,7 +86,7 @@ After the /add command is <br>
 ```
 
   
-* For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add-message?s=How are you` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter `int i` will be updated to 2 and be concreate with the string added using `/add`, and it will be store inside `str` then the value store in `str` will be
+* For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add-message?s=How are you` to add a string, `int i` will update, and it will concreate with the one aleardy stored in `str`. The counter `int i` will be updated to 2 and concreate with the string added using `/add`, and it will be store inside `str` then the value store in `str` will be
 ```
 1.Hello
 2.How are you
