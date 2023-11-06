@@ -72,10 +72,12 @@ class StringServer {
 * This time method `handleRequest` and `decode` has been called.
 * The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are`String str`, and `int i`. The value of `int i` is 2 , and value of `String str` before storeing the new input is
 <br>
+
 ```
 1.Hello
 ```
 <br>
+
 After the /add command is <br>
 
 ```
