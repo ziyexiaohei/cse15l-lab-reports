@@ -173,7 +173,7 @@ This command we used two command line option, to help us to have shorter output,
 * `find -type d -size -10M` on directory
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
-$ find -type d -size -10M
+$ find -type d -size 0M
 .
 ./911report
 ./biomed   
@@ -186,4 +186,6 @@ $ find -type d -size -10M
 ./government/Post_Rate_Comm    
 ./plos
 ```
-This command will list all the directroy that has a size less than 10 MB, we specify the type we want is directory and the size we want is less than 10Mb, 
+This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
+
+4.`
