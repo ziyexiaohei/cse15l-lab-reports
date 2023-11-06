@@ -1,4 +1,4 @@
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/ca8438cd-4a54-43fb-9d74-a0336baf040a)1. failure- including input for the Program
+1. failure- including input for the Program <br> ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/ca8438cd-4a54-43fb-9d74-a0336baf040a)
 * For ReverseInPlace method:
 Test Code:
 ```
