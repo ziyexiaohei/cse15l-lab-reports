@@ -251,4 +251,4 @@ $ find -type d -mtime -7
 ```
 This command will find all the folders that got modeified in the past 7 days. This is very useful because it can help us to save a lot of time when we are trying to organize files, and when we want to do some modification to the fiels that were being modified in the a certain day, either before a period of time, or after a period of time. Instead of typing it all out, we can just this expression to done thing more quicker.
 
-*source: [link]https://kb.iu.edu/d/admm
+*source: https://kb.iu.edu/d/admm
