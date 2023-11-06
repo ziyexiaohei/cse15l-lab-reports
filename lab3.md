@@ -1,4 +1,4 @@
-1. failure- including input for the Program
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/ca8438cd-4a54-43fb-9d74-a0336baf040a)1. failure- including input for the Program
 * For ReverseInPlace method:
 Test Code:
 ```
@@ -188,4 +188,67 @@ $ find -type d -size 0M
 ```
 This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
 
-4.`
+4.`-mtime`: This expression allow user to find file or directory that got modified at the specified time, takes day as unit.
+
+* `find -type f -mtime -7` on file
+```
+Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch (main)
+$ find ~/Documents/GitHub/docsearch//technical/911report/ -type f -mtime -7
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-1.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-10.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-11.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-12.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-13.1.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-13.2.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-13.3.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-13.4.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-13.5.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-2.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-3.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-5.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-6.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-7.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-8.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-9.txt
+/c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/preface.txt
+```
+This command will find all the file that is in the given directory that got modified in the last 7 days, the expression `-mtime` is stand for modified time, which takes day unit. This is very useful because when we are working in a company, we take over the project, we want to find the file that they havd been working on, we can just use this command and we can just see what file did they modified in the past 1 days, or so. Similarly we can use `-mmin` that takes min as unit.
+
+* `find -type d -mtime -7` on directory
+```
+$ find -type d -mtime -7
+.
+./.git
+./.git/hooks
+./.git/info
+./.git/logs
+./.git/logs/refs
+./.git/logs/refs/heads
+./.git/logs/refs/remotes
+./.git/logs/refs/remotes/origin
+./.git/logs/refs/remotes/upstream
+./.git/objects
+./.git/objects/info
+./.git/objects/pack
+./.git/refs
+./.git/refs/heads
+./.git/refs/remotes
+./.git/refs/remotes/origin
+./.git/refs/remotes/upstream
+./.git/refs/tags
+./lib
+./technical
+./technical/911report
+./technical/biomed
+./technical/government
+./technical/government/About_LSC
+./technical/government/Alcohol_Problems
+./technical/government/Env_Prot_Agen
+./technical/government/Gen_Account_Office
+./technical/government/Media
+./technical/government/Post_Rate_Comm
+./technical/plos
+```
+This command will find all the folders that got modeified in the past 7 days. This is very useful because it can help us to save a lot of time when we are trying to organize files, and when we want to do some modification to the fiels that were being modified in the a certain day, either before a period of time, or after a period of time. Instead of typing it all out, we can just this expression to done thing more quicker.
+
+*source: [link]https://kb.iu.edu/d/admm
