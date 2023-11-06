@@ -100,10 +100,7 @@ $  find /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report /c/Users/B
 ```
 In this example we were using the command with two paths `find <path> <path> <filename>` that list all the file end in .txt in the given directory, the * means any character of any length, thus using *.txt with find will list all the path of file end in .txt. By using the -name expression, we are able to enter find some file that has a certain file name. When we want to find some file with certain file name in different directory, we can use this form with two path, which can save us a lot of time, we do not need to switch to diffrent directory.
 
-* `find -name <directory ` on direcotry
-  ```
-Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical/911report (main)
-$  `find -name <directory name>`
+* `find -name <directoryname> ` on direcotry
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
 $  find -name 911report
