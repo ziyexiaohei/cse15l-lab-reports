@@ -75,7 +75,8 @@ Solution: The solution to this bug is that we can just swap the relative element
 * `find <path> <path> <filename>` on file
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
-$  find /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report /c/Users/Bobby/Documents/GitHub/docsearch/technical/government/Alcohol_Problems -name "*.txt"     
+$  find /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report /c/Users/Bobby/Documents/GitHub/docsearch/technical
+/government/Alcohol_Problems -name "*.txt"     
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report/chapter-1.txt   
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report/chapter-10.txt  
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report/chapter-11.txt  
