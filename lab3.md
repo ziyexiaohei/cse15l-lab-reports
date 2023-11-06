@@ -196,8 +196,8 @@ This command will list all the directroy that has a size equal to 0 byte, which 
 
 * `find -type f -mtime -7` on file
 ```
-Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch (main)
-$ find ~/Documents/GitHub/docsearch//technical/911report/ -type f -mtime -7
+Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
+$ find ~/Documents/GitHub/docsearch/technical/911report/ -type f -mtime -7
 /c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-1.txt
 /c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-10.txt
 /c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-11.txt
@@ -220,38 +220,19 @@ This command will find all the file that is in the given directory that got modi
 
 * `find -type d -mtime -7` on directory
 ```
+Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
 $ find -type d -mtime -7
 .
-./.git
-./.git/hooks
-./.git/info
-./.git/logs
-./.git/logs/refs
-./.git/logs/refs/heads
-./.git/logs/refs/remotes
-./.git/logs/refs/remotes/origin
-./.git/logs/refs/remotes/upstream
-./.git/objects
-./.git/objects/info
-./.git/objects/pack
-./.git/refs
-./.git/refs/heads
-./.git/refs/remotes
-./.git/refs/remotes/origin
-./.git/refs/remotes/upstream
-./.git/refs/tags
-./lib
-./technical
-./technical/911report
-./technical/biomed
-./technical/government
-./technical/government/About_LSC
-./technical/government/Alcohol_Problems
-./technical/government/Env_Prot_Agen
-./technical/government/Gen_Account_Office
-./technical/government/Media
-./technical/government/Post_Rate_Comm
-./technical/plos
+./911report
+./biomed
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+./plos
 ```
 This command will find all the folders that got modeified in the past 7 days. This is very useful because it can help us to save a lot of time when we are trying to organize files, and when we want to do some modification to the fiels that were being modified in the a certain day, either before a period of time, or after a period of time. Instead of typing it all out, we can just this expression to done thing more quicker.
 
