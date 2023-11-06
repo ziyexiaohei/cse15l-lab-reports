@@ -110,6 +110,7 @@ $  find -name 911report
 This command will help us to find all the file and directory that is called 911 report. This command is useful when we are trying to see does there a folder that we want in our current working directory.
 * source: https://kb.iu.edu/d/admm
 <br>
+
 2. `-type`: the comman-line optiopn  `-type` will allow us to find certain type of file.
 * `find -type f` on file
 ```
@@ -189,7 +190,8 @@ $ find -type d -size 0M
 This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
 
 * source: https://kb.iu.edu/d/admm
-  <br>
+<br>
+  
 4.`-mtime`: This expression allow user to find file or directory that got modified at the specified time, takes day as unit.
 
 * `find -type f -mtime -7` on file
