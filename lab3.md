@@ -99,7 +99,7 @@ $  find /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report /c/Users/B
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/government/Alcohol_Problems/Session3-PDF.txt
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
-In this example we were using the command with two paths `find <path> <path> <filename>` that list all the file end in .txt in the given directory, the * means any character of any length, thus using *.txt with find will list all the path of file end in .txt. By using the -name expression, we are able to enter find some file that has a certain file name. When we want to find some file with certain file name in different directory, we can use this form with two path, which can save us a lot of time, we do not need to switch to diffrent directory.
+* In this example we were using the command with two paths `find <path> <path> <filename>` that list all the file end in .txt in the given directory, the * means any character of any length, thus using *.txt with find will list all the path of file end in .txt. By using the -name expression, we are able to enter find some file that has a certain file name. When we want to find some file with certain file name in different directory, we can use this form with two path, which can save us a lot of time, we do not need to switch to diffrent directory.
 
 * `find -name <directoryname> ` on direcotry
 ```
@@ -107,7 +107,7 @@ Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
 $  find -name 911report
 ./911report
 ```
-This command will help us to find all the file and directory that is called 911 report. This command is useful when we are trying to see does there a folder that we want in our current working directory.
+* This command will help us to find all the file and directory that is called 911 report. This command is useful when we are trying to see does there a folder that we want in our current working directory.
 * source: https://kb.iu.edu/d/admm
 <br>
 
@@ -134,7 +134,7 @@ $ find /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report -type f
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report/chapter-9.txt
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report/preface.txt
 ```
-This time we will be using the `-type` command-line expression, where it allow us to find and list all the type of file or directory that we want, in this example it will be all the files. The `f` stand for file which will just list all the file in current working directory. This command is useful, when our working directory has both files and folders, and we want to calculate the amount of file it has, this command is useful in that situration to only listing the files, without the foldres.
+* This time we will be using the `-type` command-line expression, where it allow us to find and list all the type of file or directory that we want, in this example it will be all the files. The `f` stand for file which will just list all the file in current working directory. This command is useful, when our working directory has both files and folders, and we want to calculate the amount of file it has, this command is useful in that situration to only listing the files, without the foldres.
 
 * `find -type d` on directory
 ```
@@ -152,7 +152,7 @@ $ find -type d
 ./government/Post_Rate_Comm
 ./plos
 ```
-This command is used to list all the directory in our current working directory, in this command the `d` stand for directory, which will help to identify what type of file we want to find. This command is useful when we are looking for folders, and we can combined this wil `-name` to find folder, and ignore the file with the same name, it will be more efficient compared to `find`, which list all the files, and using `-name` when there are multiple file with same name.
+* This command is used to list all the directory in our current working directory, in this command the `d` stand for directory, which will help to identify what type of file we want to find. This command is useful when we are looking for folders, and we can combined this wil `-name` to find folder, and ignore the file with the same name, it will be more efficient compared to `find`, which list all the files, and using `-name` when there are multiple file with same name.
 * source: https://kb.iu.edu/d/admm
 <br>
 
@@ -169,7 +169,7 @@ $ find -type f -size 100
 ```
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/8f70de82-2f07-40dc-b1ed-50192cce8212)
 
-This command we used two command line option, to help us to have shorter output, the `-type f` is to help us only list the files, and `-size` will list files that is excally the size we assig, combining these two will only list files that are excaly the size I want. As the picture shows the file is 50,773 bytes, when we did not have a suffix in the command, the default suffix is `b` which is 512 bytes, 100*512 bytes is 51200 bytes, which is almost the same. This command is useful, when we trying to delete file that are certain size, this will be very useful. Further more you can add - or + infront the <sizeassign> to list files that are below or above that size, `find -size -100M` list file under 100Mb. 
+* This command we used two command line option, to help us to have shorter output, the `-type f` is to help us only list the files, and `-size` will list files that is excally the size we assig, combining these two will only list files that are excaly the size I want. As the picture shows the file is 50,773 bytes, when we did not have a suffix in the command, the default suffix is `b` which is 512 bytes, 100*512 bytes is 51200 bytes, which is almost the same. This command is useful, when we trying to delete file that are certain size, this will be very useful. Further more you can add - or + infront the <sizeassign> to list files that are below or above that size, `find -size -100M` list file under 100Mb. 
 
 * `find -type d -size -10M` on directory
 ```
@@ -187,7 +187,7 @@ $ find -type d -size 0M
 ./government/Post_Rate_Comm    
 ./plos
 ```
-This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
+* This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
 
 * source: https://kb.iu.edu/d/admm
 <br>
@@ -216,7 +216,7 @@ $ find ~/Documents/GitHub/docsearch/technical/911report/ -type f -mtime -7
 /c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/chapter-9.txt
 /c/Users/Bobby/Documents/GitHub/docsearch//technical/911report/preface.txt
 ```
-This command will find all the file that is in the given directory that got modified in the last 7 days, the expression `-mtime` is stand for modified time, which takes day unit. This is very useful because when we are working in a company, we take over the project, we want to find the file that they havd been working on, we can just use this command and we can just see what file did they modified in the past 1 days, or so. Similarly we can use `-mmin` that takes min as unit.
+* This command will find all the file that is in the given directory that got modified in the last 7 days, the expression `-mtime` is stand for modified time, which takes day unit. This is very useful because when we are working in a company, we take over the project, we want to find the file that they havd been working on, we can just use this command and we can just see what file did they modified in the past 1 days, or so. Similarly we can use `-mmin` that takes min as unit.
 
 * `find -type d -mtime -7` on directory
 ```
@@ -234,6 +234,6 @@ $ find -type d -mtime -7
 ./government/Post_Rate_Comm
 ./plos
 ```
-This command will find all the folders that got modeified in the past 7 days. This is very useful because it can help us to save a lot of time when we are trying to organize files, and when we want to do some modification to the fiels that were being modified in the a certain day, either before a period of time, or after a period of time. Instead of typing it all out, we can just this expression to done thing more quicker.
+* This command will find all the folders that got modeified in the past 7 days. This is very useful because it can help us to save a lot of time when we are trying to organize files, and when we want to do some modification to the fiels that were being modified in the a certain day, either before a period of time, or after a period of time. Instead of typing it all out, we can just this expression to done thing more quicker.
 
 * source: https://kb.iu.edu/d/admm
