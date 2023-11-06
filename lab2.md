@@ -63,9 +63,9 @@ class StringServer {
 ## Screenshouts of  using `/add-message` 
 1. ![Hello](laba21.png)
  * Once the code is being run, under the `Handler` class, method `handleRequest`, and `decode` has been called and also the `main` method under class `StringServer` is being called.
- * The `main` method takes a array of string as argument, and convert it into interger and store in port inorder for the Server to start. The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are `String str`, and `int i`. The value of `int i` is 1, to keep track of how many times user entered string, and the value of `String str` is 1.Hello, which is the counter and the string entered by user.
+ * The `main` method takes a array of string as argument, and convert it into interger and store in port inorder for the Server to start. The `decode` method takes String as argument. And the `handleRequest` method takes URI as argument. The value of relevant file of the class are `String str`, and `int i`. The value of `int i` is 1, to keep track of how many times user entered string, and the value of `String str` is `1. Hello`, which is the counter and the string entered by user.
 
- * Once the request has been processed, a new string will be stored in `String str` which contains the string requested, and i as the counter. The `int i` value is mean to keep track of how many string has been requested, the value of i will change with every `/add` request. If there is no value got changed then it either return to the decode of `String str` (when the path is "/"), or  `return "404 Not Found!"` for path that is unknow. In this case the `int i` stoed `1`, and `String str` stored `1.Hello` .
+ * Once the request has been processed, a new string will be stored in `String str` which contains the string requested, and i as the counter. The `int i` value is mean to keep track of how many string has been requested, the value of i will change with every `/add` request. In our example after we enterd the `/add-message?s=Hello`, the `int i` will hold 1, and the `String str` will hold `1. Hello` .If there is no value got changed then it either return to the decode of `String str` (when the path is "/"), or  `return "404 Not Found!"` for path that is unknow. In this case the `int i` stoed `1`, and `String str` stored `1.Hello` .
 <br>
 
 2. ![Howareyou](laba22.png)
@@ -83,7 +83,7 @@ After the /add command is <br>
 ```
 
   
-* For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter i will be updated and be store in side `str` then the value store in `str` will be
+* For this request the `String str` has aleardy strored the `1. Hello`, this time when we use `/add-message?s=How are you` to add a string, it will concreate with the one aleardy stored in `str`, and also the counter `int i` will be updated to 2 and be concreate with the string added using `/add`, and it will be store inside `str` then the value store in `str` will be
 ```
 1.Hello
 2.How are you
