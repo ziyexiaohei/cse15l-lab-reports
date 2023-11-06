@@ -69,8 +69,8 @@ Solution: The solution to this bug is that we can just swap the relative element
 
 
 # Part 2: `find` command
-* The `find` command is use to search for files in a directory hierarchy
-command-line options:
+## The `find` command is use to search for files in a directory hierarchy
+##command-line options:
 1. `-name`: Using find with -name we are able to find the file with certain names, and if we want to find file name contains come letter we can just add double quotation marks aroud them, such as `"*.txt"` will list all the file end with .txt, just use `find <path> -name file.txt`, which will list all the file name file.txt.
 
 * `find <path> <path> <filename>` on file
