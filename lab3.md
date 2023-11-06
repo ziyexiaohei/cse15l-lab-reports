@@ -169,7 +169,7 @@ $ find -type f -size 100
 ```
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/8f70de82-2f07-40dc-b1ed-50192cce8212)
 
-This command we used two command line option, to help us to have shorter output, the `-type f` is to help us only list the files, and `-size` will list files that is excally the size we assig, combining these two will only list files that are excaly the size I want. As the picture shows the file is 53,248 bytes, when we did not have a suffix in the command, the default suffix is `b` which is 512 bytes, 100*512 bytes is 51200 bytes, which is almost the same. This command is useful, when we trying to delete file that are certain size, this will be very useful. Further more you can add - or + infront the <sizeassign> to list files that are below or above that size, `find -size -100M` list file under 100Mb. 
+This command we used two command line option, to help us to have shorter output, the `-type f` is to help us only list the files, and `-size` will list files that is excally the size we assig, combining these two will only list files that are excaly the size I want. As the picture shows the file is 50,773 bytes, when we did not have a suffix in the command, the default suffix is `b` which is 512 bytes, 100*512 bytes is 51200 bytes, which is almost the same. This command is useful, when we trying to delete file that are certain size, this will be very useful. Further more you can add - or + infront the <sizeassign> to list files that are below or above that size, `find -size -100M` list file under 100Mb. 
 
 * `find -type d -size -10M` on directory
 ```
