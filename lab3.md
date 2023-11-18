@@ -23,16 +23,21 @@ Associated code:
     }
   }
 ```
+<br>
 2. Input that doesn't induce a failure
-   Test Code:
-```
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
+
+Test Code:
+<br>
+
+ ```
+@Test 
+public void testReverseInPlace() {
+int[] input1 = { 3 };
+ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
-```
+ ```
+<br>
 
 Associated code:
 ```
