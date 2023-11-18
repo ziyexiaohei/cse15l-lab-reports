@@ -40,7 +40,8 @@ Associated code:
   }
 ```
 3. Symptom
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/d18383cf-a038-4a3f-b8dc-71b37c9700cc)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/00f9f446-9477-492f-9adc-7bdb2df2451c)
+
 4. Fix
 Before:
 ```
