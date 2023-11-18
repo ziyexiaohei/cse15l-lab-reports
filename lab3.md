@@ -24,6 +24,7 @@ Associated code:
   }
 ```
 <br>
+
 2. Input that doesn't induce a failure
 
 Test Code:
