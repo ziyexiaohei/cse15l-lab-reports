@@ -41,6 +41,7 @@ Associated code:
 ```
 3. Symptom
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/00f9f446-9477-492f-9adc-7bdb2df2451c)
+
 The code for the test case is :
 ```
   @Test 
