@@ -1,7 +1,7 @@
 # Part 1 - Bugs
 1. failure- including input for the Program
 * For ReverseInPlace method:
-
+<br>
 Test Code:
 ```
   @Test 
@@ -10,7 +10,6 @@ Test Code:
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 8,7,6,5,4,3,2,1 }, input1);
 	}
-
 ```
 
 Associated code:
