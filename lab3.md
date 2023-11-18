@@ -1,5 +1,5 @@
 # Part 1 - Bugs
-1.failure- including input for the Program
+1. failure- including input for the Program
 
 * For ReverseInPlace method:
 <br>
