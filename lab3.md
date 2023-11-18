@@ -147,6 +147,7 @@ $ find -type d
 ```
 * This command is used to list all the directory in our current working directory, in this command the `d` stand for directory, which will help to identify what type of file we want to find. This command is useful when we are looking for folders, and we can combined this wil `-name` to find folder, and ignore the file with the same name, it will be more efficient compared to `find`, which list all the files, and using `-name` when there are multiple file with same name.
 * source: https://kb.iu.edu/d/admm
+
 3. `-size`: command option that allows user to find a specific size of file, usually is in 512-byte block if no suffix is used.
 * `find -type f -size 100b` on file
 ```
@@ -181,7 +182,7 @@ $ find -type d -size 0M
 * This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
 
 * source: https://kb.iu.edu/d/admm
-4.`-mtime`: This expression allow user to find file or directory that got modified at the specified time, takes day as unit.
+4. `-mtime`: This expression allow user to find file or directory that got modified at the specified time, takes day as unit.
 
 * `find -type f -mtime -7` on file
 ```
