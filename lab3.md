@@ -1,9 +1,9 @@
 # Part 1 - Bugs
-1. failure- including input for the Program
 
+
+1. failure- including input for the Program
 * For ReverseInPlace method:
 <br>
-
 Test Code:
 ```
   @Test 
@@ -13,7 +13,6 @@ Test Code:
     assertArrayEquals(new int[]{ 8,7,6,5,4,3,2,1 }, input1);
 	}
 ```
-<br>
 Associated code:
 
 ```
@@ -23,13 +22,9 @@ Associated code:
     }
   }
 ```
-<br>
-
 2. Input that doesn't induce a failure
 
 Test Code:
-<br>
-
  ```
 @Test 
 public void testReverseInPlace() {
@@ -38,8 +33,6 @@ ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
  ```
-<br>
-
 Associated code:
 ```
   static void reverseInPlace(int[] arr) {
@@ -49,12 +42,10 @@ Associated code:
   }
 ```
 
-
-3.Symptom
+3. Symptom
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/d18383cf-a038-4a3f-b8dc-71b37c9700cc)
 
-
-4.Fix
+4. Fix
 Before:
 ```
   static void reverseInPlace(int[] arr) {
