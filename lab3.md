@@ -16,12 +16,13 @@ Test Code:
 Associated code:
 
 ```
-  static void reverseInPlace(int[] arr) {
+	static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
 ```
+
 2. Input that doesn't induce a failure
 
 Test Code:
