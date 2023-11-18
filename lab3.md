@@ -103,7 +103,7 @@ $  find -name 911report
 ./911report
 ```
 * This command will help us to find all the file and directory that is called 911 report. This command is useful when we are trying to see does there a folder that we want in our current working directory.
-* source: https://kb.iu.edu/d/admm
+* source: [link] (https://kb.iu.edu/d/admm)
 2. `-type`: the comman-line optiopn  `-type` will allow us to find certain type of file.
 * `find -type f` on file
 ```
@@ -145,7 +145,7 @@ $ find -type d
 ./plos
 ```
 * This command is used to list all the directory in our current working directory, in this command the `d` stand for directory, which will help to identify what type of file we want to find. This command is useful when we are looking for folders, and we can combined this wil `-name` to find folder, and ignore the file with the same name, it will be more efficient compared to `find`, which list all the files, and using `-name` when there are multiple file with same name.
-* source: https://kb.iu.edu/d/admm
+* source: [link] (https://kb.iu.edu/d/admm)
 3. `-size`: command option that allows user to find a specific size of file, usually is in 512-byte block if no suffix is used.
 * `find -type f -size 100b` on file
 ```
@@ -176,7 +176,7 @@ $ find -type d -size 0M
 ./plos
 ```
 * This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
-* source: https://kb.iu.edu/d/admm
+* source: [link] (https://kb.iu.edu/d/admm)
 4. `-mtime`: This expression allow user to find file or directory that got modified at the specified time, takes day as unit.
 * `find -type f -mtime -7` on file
 ```
@@ -220,4 +220,4 @@ $ find -type d -mtime -7
 ```
 * This command will find all the folders that got modeified in the past 7 days. This is very useful because it can help us to save a lot of time when we are trying to organize files, and when we want to do some modification to the fiels that were being modified in the a certain day, either before a period of time, or after a period of time. Instead of typing it all out, we can just this expression to done thing more quicker.
 
-* source: https://kb.iu.edu/d/admm
+* source: [link] (https://kb.iu.edu/d/admm)
