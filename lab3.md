@@ -1,6 +1,7 @@
 # Part 1 - Bugs
 1. failure- including input for the Program
 * For ReverseInPlace method:
+
 Test Code:
 ```
   @Test 
@@ -13,7 +14,6 @@ Test Code:
 ```
 
 Associated code:
-
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
