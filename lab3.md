@@ -3,7 +3,6 @@
 
 ## Failure- including input for the Program
 1. For ReverseInPlace method:
-
 Test Code:
 ```
   @Test 
@@ -14,7 +13,6 @@ Test Code:
 	}
 ```
 Associated code:
-
 ```
 	static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -22,7 +20,6 @@ Associated code:
     }
   }
 ```
-
 2. Input that doesn't induce a failure
 
 Test Code:
