@@ -68,7 +68,6 @@ After:
 # Part 2: Researching Commands: `find`, The `find` command is use to search for files in a directory
 ## command-line options:
 1. `-name`: Using find with -name we are able to find the file with certain names, and if we want to find file name contains come letter we can just add double quotation marks aroud them, such as `"*.txt"` will list all the file end with .txt, just use `find <path> -name file.txt`, which will list all the file name file.txt.
-
 * `find <path> <path> <filename>` on file
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
@@ -97,7 +96,6 @@ $  find /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report /c/Users/B
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
 * In this example we were using the command with two paths `find <path> <path> <filename>` that list all the file end in .txt in the given directory, the * means any character of any length, thus using *.txt with find will list all the path of file end in .txt. By using the -name expression, we are able to enter find some file that has a certain file name. When we want to find some file with certain file name in different directory, we can use this form with two path, which can save us a lot of time, we do not need to switch to diffrent directory.
-
 * `find -name <directoryname> ` on direcotry
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
