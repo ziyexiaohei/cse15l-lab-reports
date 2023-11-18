@@ -1,7 +1,7 @@
 # Part 1 - Bugs
 
 
-## 1. Failure- including input for the Program
+## Failure- including input for the Program
 1. For ReverseInPlace method:
 
 Test Code:
