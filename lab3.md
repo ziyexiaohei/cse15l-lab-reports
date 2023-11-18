@@ -39,7 +39,7 @@ Associated code:
     }
   }
 ```
-3. Symptom:
+3. Symptom:<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/9e918526-06d8-4c50-b406-6aab03daab9a)
 
 A failure-inducing input for the buggy program:
