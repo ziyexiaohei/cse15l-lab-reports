@@ -22,7 +22,7 @@ Associated code:
 ```
 2. Input that doesn't induce a failure
 
-Test Code:
+	Test Code:
  ```
 @Test 
 public void testReverseInPlace() {
@@ -39,7 +39,6 @@ Associated code:
     }
   }
 ```
-
 3. Symptom
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/d18383cf-a038-4a3f-b8dc-71b37c9700cc)
 
