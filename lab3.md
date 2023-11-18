@@ -128,7 +128,6 @@ $ find /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report -type f
 /c/Users/Bobby/Documents/GitHub/docsearch/technical/911report/preface.txt
 ```
 * This time we will be using the `-type` command-line expression, where it allow us to find and list all the type of file or directory that we want, in this example it will be all the files. The `f` stand for file which will just list all the file in current working directory. This command is useful, when our working directory has both files and folders, and we want to calculate the amount of file it has, this command is useful in that situration to only listing the files, without the foldres.
-
 * `find -type d` on directory
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
@@ -159,9 +158,7 @@ $ find -type f -size 100
 ./government/Gen_Account_Office/Paper_Walker11-2002_acpro122.txt
 ```
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/8f70de82-2f07-40dc-b1ed-50192cce8212)
-
 * This command we used two command line option, to help us to have shorter output, the `-type f` is to help us only list the files, and `-size` will list files that is excally the size we assig, combining these two will only list files that are excaly the size I want. As the picture shows the file is 50,773 bytes, when we did not have a suffix in the command, the default suffix is `b` which is 512 bytes, 100*512 bytes is 51200 bytes, which is almost the same. This command is useful, when we trying to delete file that are certain size, this will be very useful. Further more you can add - or + infront the <sizeassign> to list files that are below or above that size, `find -size -100M` list file under 100Mb. 
-
 * `find -type d -size -10M` on directory
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
@@ -181,7 +178,6 @@ $ find -type d -size 0M
 * This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
 * source: https://kb.iu.edu/d/admm
 4. `-mtime`: This expression allow user to find file or directory that got modified at the specified time, takes day as unit.
-
 * `find -type f -mtime -7` on file
 ```
 Bobby@DESKTOP-85GLBDM MINGW64 ~/Documents/GitHub/docsearch/technical (main)
