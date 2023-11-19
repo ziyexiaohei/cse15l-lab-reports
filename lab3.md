@@ -113,7 +113,7 @@ $  find -name 911report
 ./911report
 ```
 * This command will help us to find all the file and directory that is called 911 report. This command is useful when we are trying to see does there a folder that we want in our current working directory.
-* source: [geeksforgeeks](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+* **source: [geeksforgeeks](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)** :
 	In this website it had explain some of the basic options for the `find` command, and the one that is used most offten is the `-name` option, which is the first example of the website.
 2. `-type`: the comman-line optiopn  `-type` will allow us to find certain type of file.
 * `find -type f` on file
@@ -156,7 +156,7 @@ $ find -type d
 ./plos
 ```
 * This command is used to list all the directory in our current working directory, in this command the `d` stand for directory, which will help to identify what type of file we want to find. This command is useful when we are looking for folders, and we can combined this wil `-name` to find folder, and ignore the file with the same name, it will be more efficient compared to `find`, which list all the files, and using `-name` when there are multiple file with same name.
-* source: [geeksforgeeks](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+* **source: [geeksforgeeks](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)** :
   	In this website, the 6th example and 7th example is showing how to use the `-type` option for both file and directroy, and it also shows how to combind with other command like `grep`.
 3. `-size`: command option that allows user to find a specific size of file, usually is in 512-byte block if no suffix is used.
 * `find -type f -size 100b` on file
@@ -188,7 +188,7 @@ $ find -type d -size 0M
 ./plos
 ```
 * This command will list all the directroy that has a size equal to 0 byte, which is empty, but thats not true. From this example we can see that the `-size` does not work on directory, it cannot filtering directories by their size, it can only do that with files; Therefore, this expression is not useful.
-* source: [linuxconfig]([https://unix.stackexchange.com/questions/638335/find-command-size-behavior](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size))
+* **source: [linuxconfig](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)** :
 	In this website, it clearly explain the behavior of the `find` command option `-size`, and I also use the `man find` to see how the `-size` to make sure that it is correct, and have a better understand of its suffix, its unit (M for Megabytes,c for bytes,etc)
 4. `-mtime`: This expression allow user to find file or directory that got modified at the specified time, takes day as unit.
 * `find -type f -mtime -7` on file
@@ -233,5 +233,5 @@ $ find -type d -mtime -7
 ```
 * This command will find all the folders that got modeified in the past 7 days. This is very useful because it can help us to save a lot of time when we are trying to organize files, and when we want to do some modification to the fiels that were being modified in the a certain day, either before a period of time, or after a period of time. Instead of typing it all out, we can just this expression to done thing more quicker.
 
-* source: [University Information Technology Services](https://kb.iu.edu/d/admm)
+* **source: [University Information Technology Services](https://kb.iu.edu/d/admm)** :
 	In this website it shows a very percise use of the `find` command option `-mtime` it explain very clearly what the command do, and provide a lot of examples.
