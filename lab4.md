@@ -11,14 +11,16 @@ In step 4 we trying to login to the virtual machine, we use `ssh` command to con
 In step 5 we will use `git clone` command to clone the repository to the virtual machine, with the SSH URL `git@github.com:ziyexiaohei/lab7.git`. I pressed `git clone` and *`<space>`* then copy the ssh link, press *`<Ctrl-V>`* to paste the url into terminal with git clone, then we have the folder `lab7` inside the virtual machine.
 > Key pressed: *`<space>`, `<Ctrl-V>`, `<enter>`*
 <br>
-> Command used: `git clone` <br>
+> Command used: `git clone`
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/cfbbdd5a-a90d-4e01-921e-9fc72d7e4545)
 
 ## Step 6 Run the tests, demonstrating that they fail
 In step 6 we need to run the test, first we need to go into the `lab7` folder, I used `cd lab7` to change my working directory to the `lab7` folder. Inorder to run the test I pressed `bash test.sh` and `<enter>` to run the test, and it shows that there is one failures.
 > Key pressed：*`<Enter>`*
 <br>
-> Command used: `cd`, `bash` <br>
+> Command used: `cd`, `bash`
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/d1ad7ef7-5874-4b28-ad9c-0f1339a208be)
 
 ## Step 7 Edit the code file to fix the failing test
