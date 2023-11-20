@@ -42,4 +42,5 @@ In step 9 we want to commit and push the resulting change to my Github Account.,
 > Key pressed: *`<enter>`*
 > Command used: `git add`, `cd`, `git commit`, `git psuh`
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/7b0d4c05-5343-4b23-b2f5-721d79ef6918)
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/f8805f1c-41d6-4cb7-9d2f-8f05eb5a23af)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/97e3d653-be7d-4461-9e49-11f29720396e)
+
