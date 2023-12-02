@@ -25,7 +25,7 @@ In step 6 we need to run the test, first we need to go into the `lab7` folder, I
 
 ## Step 7 Edit the code file to fix the failing test
 In step 7 we want to edit the code file `ListExamples.java` to fix the failing test. Inorder to edit the file we will use `vim`, I use the command `vim ListExamples.java` to enter `vim`, the cursor is on the first line, and the line we want to modeifly is on line 44, so we press *`<4>` `<3>` `<j>`*to go down, since the *`<j>`*is a vim key for *`<down>`* and the number in front is how many times you want the command to reapte. And the character I want to change is in row 12 and the cursor is on row 1, thus we use *`<1>` `<1>` `<l>`*, the *`<l>`* key is special vim key for *`<right>`*. Now the cursor is on the character we want to change. Then we want to repalce the *`1`* with *`2`*, so I pressed *`<x>`* the key in vim used to delete character, and press *`<i>`* to enter insert mod, and then press *`<2>`*. The key we pressed are `vim ListExamples.java`
-> Key pressed: * vim ListExamples.java`<enter>`43j 12l x`<esc>`:wq * 
+> Key pressed: * vim ListExamples.java`<enter>` 43j 12l x `<esc>` :wq * 
 <br>
 > Command used: `vim`
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/22c341d1-61db-4923-87a8-0562352c023e)
