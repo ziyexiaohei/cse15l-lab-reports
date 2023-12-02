@@ -2,7 +2,7 @@
 
 ## Step 4 Log into ieng6
 In step 4 we trying to login to the virtual machine, we use `ssh` command to connect to the virtual machine, with account name `cs15lfa23jv@ieng6.ucsd.edu`. I press `ssh` and using *`<Ctrl-C>`* to copy my account form the ucsd website, and use *`<Ctrl-V>`* paste it to the terminal, then press *`<enter>`* we connected to our terminal.
-> Key pressed: *`<Ctrl-C>`, `<enter>`, `<Ctrl-V>`* <br>
+> Key pressed: *`<Ctrl-C>`, ssh `<Ctrl-V> ` `<enter>` <br>
 > Command used: `ssh`
 
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/c42739cf-a792-46bb-bda4-c96017ed0627)
