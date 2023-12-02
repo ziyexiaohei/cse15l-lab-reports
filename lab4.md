@@ -17,7 +17,7 @@ In step 5 we will use `git clone` command to clone the repository to the virtual
 
 ## Step 6 Run the tests, demonstrating that they fail
 In step 6 we need to run the test, first we need to go into the `lab7` folder, I used `cd lab7` to change my working directory to the `lab7` folder. Inorder to run the test I pressed `bash test.sh` and `<enter>` to run the test, and it shows that there is one failures.
-> Key pressed：*cd lab7 `<Enter>`, bash`space`test.sh`Enter`*
+> Key pressed：*cd lab7 `<Enter>` bash`space`test.sh`Enter`*
 <br>
 > Command used: `cd`, `bash`
 <br>
