@@ -39,7 +39,7 @@ In step 8 we want to rerun the test and show that it run successfully, to exit i
 
 ## Step 9 Commit and push the resulting change to your Github account
 In step 9 we want to commit and push the resulting change to my Github Account., we used `cd` to get back to home directory. and use `git add ListExamples.java` to check the folder we want to commit, then use `git commit` to commit the folder and also use option `-m` to enter some messages indicates the change. Then use `git push` to push the resulting change to your Github account.
-> Key pressed: *git add ListExamples.java`<enter>` git commit -m "index1 -> index2"`<enter>` git push`<enter>`*
+> Key pressed: *git add ListExamples.java`<enter>` git commit -m "index1 -> index2"`<enter>` git push`<enter>`* <br>
 > Command used: `git add`, `cd`, `git commit`, `git psuh`
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/7b0d4c05-5343-4b23-b2f5-721d79ef6918)
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/97e3d653-be7d-4461-9e49-11f29720396e)
