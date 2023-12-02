@@ -33,7 +33,7 @@ In step 7 we want to edit the code file `ListExamples.java` to fix the failing t
 
 ## Step 8 Run the tests, demonstrating that they now succeed
 In step 8 we want to rerun the test and show that it run successfully, to exit insert mod, I pressed *`<esc>`* and the to save and quit vim, in normal mod I use *`<:>` `<w>` `<q>`*. And then we want to run `bash test.sh` again, I pressed *`<up><up><up>`*, The command `bash test.sh` is 3 lines up in the command history, so I use *up arrow* to access it, and then press *`<enter>`*.
-> Key pressed: *`<esc>` :wq `<up>` `<up>` `<up>` `<enter>` *
+> Key pressed: *`<esc>` :wq `<up>` `<up>` `<up>` `<enter>`*
 > Command used: `bash`
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/3ebab904-0766-4633-9d8c-8f38d8d6b391)
 
