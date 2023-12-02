@@ -9,7 +9,7 @@ In step 4 we trying to login to the virtual machine, we use `ssh` command to con
 
 ## Step 5 Clone your fork of the repository from your Github account
 In step 5 we will use `git clone` command to clone the repository to the virtual machine, with the SSH URL `git@github.com:ziyexiaohei/lab7.git`. I pressed `git clone` and *`<space>`* then copy the ssh link, press *`<Ctrl-V>`* to paste the url into terminal with git clone, then we have the folder `lab7` inside the virtual machine.
-> Key pressed: *`<space>`, `<Ctrl-V>`, `<enter>`*
+> Key pressed: * git`<space>` clone `<Ctrl-V>` `<enter>`*
 <br>
 > Command used: `git clone`
 <br>
