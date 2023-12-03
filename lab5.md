@@ -52,12 +52,13 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 
 ## 4. All the Resources
 1. The file & directory structure needed:
-2. <br>
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
 File needed is grade.sh and TestListExamples, and JUnit Library, the GradeServer and Server is not needed in this question.
 
-3. The contents of each file before fixing the bug
+2. The contents of each file before fixing the bug
 grade.sh:
+
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -97,6 +98,7 @@ fi
 # Then, add here code to compile and run, and do any post-processing of the
 # tests
 ```
+
 TestListExamples.java:
 ```
 import static org.junit.Assert.*;
