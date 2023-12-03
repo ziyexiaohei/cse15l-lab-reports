@@ -2,7 +2,7 @@ Hello, I am working on the LIST-EXAMPLES-GRADER, and I've run into a puzzling is
 
 
 This is the ouput of the error occur
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/a648972b-3ac2-43ae-abb1-e46d052e18ae)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/e557df97-3fc9-4cfd-8748-3f966b3ed55f)
 
 
 And this is the code for my grade.sh file
