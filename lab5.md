@@ -6,16 +6,16 @@ Hello, I am working on the LIST-EXAMPLES-GRADER, and I've run into a puzzling is
 
 
 This is the ouput of the error occur
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/195484f3-42dc-4425-9e6d-eec70aac9ed4)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/439c88b4-414b-4ecd-9a25-4f84fd2ce895)
 
 
 And this is the code for my grade.sh file
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/49b78b96-d6ca-4987-9287-12a656dd0b28)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/e73385b5-f3c2-416e-b221-0d08c31ba0d9)
 This is directory before running the code:
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/91ac2e8f-fab2-4579-8820-ee0a02026ff0)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/4bf0e27c-59cb-470a-af2c-6657c8c17d8d)
 
 And this is directory after the running code :
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/c8fe0ab5-188a-4044-a699-39f2b1abe2f5)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/285fcfe2-a449-476a-9948-4f622bf92722)
 
 Description: I use the [Correct_file](https://github.com/ucsd-cse15l-f22/list-methods-corrected) as my input. From the grade.sh file I can see that it created a folder call grading-area, and it will clone the file student submitted into student-submission file. And it will check the name of the file to see did the student submit the correct file or not. I think the problem occur when we try to compile the file inside grading-area, error message showing that `package org.junit does not exist`, it should be some problem related to the junit file, I have tryed to reinstall the junit package, I dowload a new junit package to replaced the one we haved, but still showing the same error.
 
