@@ -47,7 +47,8 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 
 
 ## 4. All the Resources
-1. The file & directory structure needed: ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/444cd30f-248a-42c6-8e0b-e961ccf8a7e9)
+1. The file & directory structure needed:
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
 File needed is grade.sh and TestListExamples, and JUnit Library, the GradeServer and Server is not needed in this question.
 
 2. The contents of each file before fixing the bug
@@ -121,6 +122,7 @@ public class TestListExamples {
 
 4. A description of what to edit to fix the bug
 To fix the Bug we could either copy the `lib` folder into grading-area,
-
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/17b841c4-a8b3-4afe-b533-a2d5c6a9aba9)
 
 or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/01ae37df-5a86-4eb7-96e9-f6598a8cf58c)
