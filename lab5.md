@@ -40,14 +40,14 @@ Thanks for the help, after looking through the grade.sh script, I find what the 
 
 When I compile and run the java file, I need to know where to find the classes and libraries that my code depends on, the code I have to compile the java file is `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` which the `lib/hamcrest-core-1.3.jar` tells the compiler where the library are, and since I decided to change the working directory into grading-area and compile there, it does not have JUnit Library inside `lib` folder, that is the reason why my error message saying that org.junit does not exist. From what you said there seems to have two solution to fix this, either I change the relative path to JUnit to absolute path or I can just copy the `lib` folder into grading-area.
 
-I modify my grade.sh script to copy the JUnit library into the grading-area directory before compiling and running the tests.
+I modify my grade.sh script to copy the JUnit library into the grading-area directory before compiling and running the tests.<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/2487f883-392a-4517-91d9-20eee8f85b8c)
-
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/49f22ea2-40e1-4631-af95-a77cc30ce151)
 
 
 ## 4. All the Resources
-1. The file & directory structure needed:
+1. The file & directory structure needed:<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
 File needed is grade.sh and TestListExamples, and JUnit Library, the GradeServer and Server is not needed in this question.
 
@@ -121,8 +121,8 @@ public class TestListExamples {
 `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
 
 4. A description of what to edit to fix the bug
-To fix the Bug we could either copy the `lib` folder into grading-area,
+To fix the Bug we could either copy the `lib` folder into grading-area. <br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/17b841c4-a8b3-4afe-b533-a2d5c6a9aba9)
 
-or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.
+    or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/01ae37df-5a86-4eb7-96e9-f6598a8cf58c)
