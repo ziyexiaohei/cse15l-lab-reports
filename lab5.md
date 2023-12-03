@@ -1,4 +1,4 @@
-## Student Answer
+## 1. Student Answer
 
 
 
@@ -17,16 +17,34 @@ And this is what it does to the directory:
 Description: From the grade.sh file I can see that it created a folder call grading-area, and it will clone the file student submitted into student-submission file. And it will check the name of the file to see did the student submit the correct file or not. I think the problem occur when we try to compile the file inside grading-area, error message showing that `package org.junit does not exist`, it should be some problem related to the junit file, I have tryed to reinstall the junit package, I dowload a new junit package to replaced the one we haved, but still showing the same error.
 
 
-## TA Respond 
+## 2. TA Respond 
 
-Hi,
+Hi, 
+Based on the information you provided, it appears that the JUnit package is not being recognized during compilation, as showed by the error message "org.junit does not exist"
 
-Based on the information you provided, it seems like the issue could indeed be related to the absence of the JUnit library in the grading-area directory. When you're compiling and running Java files in a specific directory, that directory needs to include all the dependencies, including JUnit.
+I suggest carefully reviewing the grading-area.sh script, payin attention to the lines related to JUnit. Verify if the path specified tells the JVM and Java compiler about where the JUnit library. Also you can think about what do you need to do when there is some file missing in your directory.
 
-When we compile and run the java file, we need to know where to find the classes and libraries that your code depends on, the code you have for compile the java file is `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` which the `lib/hamcrest-core-1.3.jar` tells the compiler where the library are, and in your code, you decided to change your path into grading-area and compile there, then there does not have a lib folder contain all the JUnit Library, that is the reason why your error message saying that org.junit does not exist. There has two way to fix this one is to copy the JUnit Library into grading-area, or you can modefly your code and replace the relative path to JUnit Library with the absolute path to JUnit Library. 
+Take a moment to go over the JUnit-related lines in your script, and confirm if the path is set up correctly. If you encounter any problems, feel free to share those specific script lines, and we can work together to address them.
 
-You can modify your grade.sh script to copy the JUnit library into the grading-area directory before compiling and running the tests. Here is one way you can do it:
+
+
+
+## 3. Student Respond
+
+
+
+
+
+
+
+
+Hello, 
+
+Thanks for the help, after looking through the grade.sh script, I find what the bug is. When I compile and run Java files in a specific directory, that directory needs to include all the dependencies, including JUnit.
+
+When I compile and run the java file, I need to know where to find the classes and libraries that my code depends on, the code I have to compile the java file is `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` which the `lib/hamcrest-core-1.3.jar` tells the compiler where the library are, and since I decided to change the working directory into grading-area and compile there, it does not have JUnit Library inside `lib` folder, that is the reason why my error message saying that org.junit does not exist. From what you said there seems to have two solution to fix this, either I change the relative path to JUnit to absolute path or I can just copy the `lib` folder into grading-area.
+
+I modify my grade.sh script to copy the JUnit library into the grading-area directory before compiling and running the tests.
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/2487f883-392a-4517-91d9-20eee8f85b8c)
 
-Here you can use `cp` with option `-r` to copy the entire lib folder into grading-area. This should ensure that both your source files and the necessary JUnit libraries are present in the same directory when compiling and running the tests.
-
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/49f22ea2-40e1-4631-af95-a77cc30ce151)
