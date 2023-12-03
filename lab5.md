@@ -5,16 +5,20 @@
 Hello, I am working on the LIST-EXAMPLES-GRADER, and I've run into a puzzling issue that I can't seem to figure out. I've got a description of what I think might be the bug or at least some information about the code that's causing the failure.
 
 
-This is the ouput of the error occur<br>
+This is the ouput of the error occur
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/813e8b85-7860-48ab-aa6c-134df816a0b5)
 
 
-And this is the code for my grade.sh file<br>
+And this is the code for my grade.sh file
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/e73385b5-f3c2-416e-b221-0d08c31ba0d9)
-This is directory before running the code:<br>
+This is directory before running the code:
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/07395dd9-d927-4a11-acf8-5f9591560b0a)
 
-And this is directory after the running code :<br>
+And this is directory after the running code:
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/c72b3a47-cee1-4087-9c6d-cce3d30ae4c5)
 
 Description: I use the [Correct_file](https://github.com/ucsd-cse15l-f22/list-methods-corrected) as my input. From the grade.sh file I can see that it created a folder call grading-area, and it will clone the file student submitted into student-submission file. And it will check the name of the file to see did the student submit the correct file or not. I think the problem occur when we try to compile the file inside grading-area, error message showing that `package org.junit does not exist`, it should be some problem related to the junit file, I have tryed to reinstall the junit package, I dowload a new junit package to replaced the one we haved, but still showing the same error.
@@ -47,11 +51,12 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 
 
 ## 4. All the Resources
-1. The file & directory structure needed:<br>
+1. The file & directory structure needed:
+2. <br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
 File needed is grade.sh and TestListExamples, and JUnit Library, the GradeServer and Server is not needed in this question.
 
-2. The contents of each file before fixing the bug
+3. The contents of each file before fixing the bug
 grade.sh:
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
