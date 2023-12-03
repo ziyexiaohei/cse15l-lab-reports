@@ -6,7 +6,7 @@ Hello, I am working on the LIST-EXAMPLES-GRADER, and I've run into a puzzling is
 
 
 This is the ouput of the error occur
-![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/439c88b4-414b-4ecd-9a25-4f84fd2ce895)
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/813e8b85-7860-48ab-aa6c-134df816a0b5)
 
 
 And this is the code for my grade.sh file
