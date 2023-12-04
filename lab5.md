@@ -125,7 +125,6 @@ public class TestListExamples {
   }
 }
 ```
-
 3. The full command line to trigger the bug `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
 <br>
 
