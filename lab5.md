@@ -52,8 +52,12 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 
 ## 4. All the Resources
 
-1. The file & directory structure needed:![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
-2. The contents of each file before fixing the bug. <br>
+1. The file & directory structure needed:
+![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
+
+
+
+# 2. The contents of each file before fixing the bug. <br>
 grade.sh:
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -119,15 +123,17 @@ public class TestListExamples {
   }
 }
 ```
-3. The full command line to trigger the bug `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
-<br>
 
-4. A description of what to edit to fix the bug
+
+
+# 3. The full command line to trigger the bug `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
+
+
+
+
+
+# 4. A description of what to edit to fix the bug
 To fix the Bug we could either copy the `lib` folder into grading-area. 
-<br>
-
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/17b841c4-a8b3-4afe-b533-a2d5c6a9aba9)
-    Or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.
-    <br>
-    
+Or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/01ae37df-5a86-4eb7-96e9-f6598a8cf58c)
