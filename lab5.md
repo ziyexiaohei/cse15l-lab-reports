@@ -60,7 +60,6 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 # 2. The contents of each file before fixing the bug. 
 
 grade.sh:
-
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -102,7 +101,6 @@ fi
 ```
 
 TestListExamples.java:
-
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
