@@ -54,11 +54,8 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 
 1. The file & directory structure needed:
 <br>
-
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
-File needed is grade.sh and TestListExamples, and JUnit Library, the GradeServer and Server is not needed in this question.
-<br>
-
+<br> File needed is grade.sh and TestListExamples, and JUnit Library, the GradeServer and Server is not needed in this question.
 2. The contents of each file before fixing the bug
 grade.sh:
 ```
