@@ -57,7 +57,9 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 
 
 
-# 2. The contents of each file before fixing the bug. <br>
+# 2. The contents of each file before fixing the bug. 
+<br>
+
 grade.sh:
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -98,6 +100,7 @@ fi
 # Then, add here code to compile and run, and do any post-processing of the
 # tests
 ```
+<br>
 
 TestListExamples.java:
 ```
