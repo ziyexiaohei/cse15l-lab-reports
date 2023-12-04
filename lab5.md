@@ -1,6 +1,6 @@
-# 1. Student Answer
+# Part 1 – Debugging Scenario
 
-
+## 1. Student Answer
 
 Hello, I am working on the LIST-EXAMPLES-GRADER, and I've run into a puzzling issue that I can't seem to figure out. I've got a description of what I think might be the bug or at least some information about the code that's causing the failure.
 
@@ -24,7 +24,7 @@ And this is directory after the running code:
 Description: I use the [Correct_file](https://github.com/ucsd-cse15l-f22/list-methods-corrected) as my input. From the grade.sh file I can see that it created a folder call grading-area, and it will clone the file student submitted into student-submission file. And it will check the name of the file to see did the student submit the correct file or not. I think the problem occur when we try to compile the file inside grading-area, error message showing that `package org.junit does not exist`, it should be some problem related to the junit file, I have tryed to reinstall the junit package, I dowload a new junit package to replaced the one we haved, but still showing the same error.
 
 
-# 2. TA Respond 
+## 2. TA Respond 
 
 Hi, 
 Based on the information you provided, it appears that the JUnit package is not being recognized during compilation, as showed by the error message "org.junit does not exist"
@@ -36,7 +36,7 @@ Take a moment to go over the JUnit-related lines in your script, and confirm if 
 
 
 
-# 3. Student Respond
+## 3. Student Respond
 
 Hello, 
 
@@ -50,14 +50,14 @@ I modify my grade.sh script to copy the JUnit library into the grading-area dire
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/49f22ea2-40e1-4631-af95-a77cc30ce151)
 
 
-# 4. All the Resources
+## 4. All the Resources
 
-## 1. The file & directory structure needed:
+### 1. The file & directory structure needed:
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/224c03a0-06e2-431e-9da7-66029f41afb2)
 
 
 
-## 2. The contents of each file before fixing the bug. 
+### 2. The contents of each file before fixing the bug. 
 
 grade.sh:
 ```
@@ -127,14 +127,16 @@ public class TestListExamples {
 
 
 
-## 3. The full command line to trigger the bug `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
+### 3. The full command line to trigger the bug `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
 
 
 
-
-
-## 4. A description of what to edit to fix the bug
+### 4. A description of what to edit to fix the bug
 To fix the Bug we could either copy the `lib` folder into grading-area. 
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/17b841c4-a8b3-4afe-b533-a2d5c6a9aba9)
 Or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/01ae37df-5a86-4eb7-96e9-f6598a8cf58c)
+
+
+# Part 2 – Reflection
+In this class I have learn about Github a platform that I had heard about but never have the chance to actually learn about it, and use it for my own project, lab reports. One of the thing that I learn in this class about git hub that is most appealing to me is branch. Branches in GitHub provide a flexible and efficient way to manage different aspects of my project. I am able to modify the code, to debug without interfering the main code that is for others to use and view, this useful feature will help users to keep a clean and stable main codebase.
