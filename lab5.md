@@ -122,13 +122,15 @@ public class TestListExamples {
   }
 }
 ```
+`dwsfd`
+<br>
+3. The full command line to trigger the bug `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
 
-3. The full command line to trigger the bug
-`bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
-
+<br>
 4. A description of what to edit to fix the bug
-To fix the Bug we could either copy the `lib` folder into grading-area. <br>
+To fix the Bug we could either copy the `lib` folder into grading-area. 
+<br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/17b841c4-a8b3-4afe-b533-a2d5c6a9aba9)
-
-    or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.<br>
+    or we can change the grade.sh script, change the relative path of the JUnit Library to absolute path.
+    <br>
 ![image](https://github.com/ziyexiaohei/cse15l-lab-reports/assets/146874199/01ae37df-5a86-4eb7-96e9-f6598a8cf58c)
